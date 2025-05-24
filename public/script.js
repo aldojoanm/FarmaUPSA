@@ -224,7 +224,7 @@ async function enviarPedido() {
 
     // 2. Generar enlace WhatsApp
     const mensaje = generarMensajeWhatsApp(carrito, data.numeroPedido);
-    const numeroFarmacia = '59169123983'; // Reemplaza con número real
+    const numeroFarmacia = '59175600630'; // Reemplaza con número real
     const enlaceWhatsApp = `https://wa.me/${numeroFarmacia}?text=${encodeURIComponent(mensaje)}`;
 
     // 3. Mostrar opción para enviar

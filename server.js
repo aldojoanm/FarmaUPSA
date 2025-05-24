@@ -13,6 +13,14 @@ mongoose.connect(process.env.MONGODB_URI)
 .then(() => console.log('Conectado a MongoDB'))
 .catch(err => console.error('Error conectando a MongoDB:', err));
 
+mongoose.connection.on('disconnected', () => {
+  console.log('Reconectando a MongoDB...');
+  mongoose.connect(process.env.MONGODB_URI, {
+    connectTimeoutMS: 30000,
+    socketTimeoutMS: 30000
+  });
+});
+
 const app = express();
 app.use(cors());
 app.use(express.json());
