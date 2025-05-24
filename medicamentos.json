@@ -1,0 +1,1608 @@
+[
+  {
+    "nombre": "Hierro + Ácido fólico tabletas",
+    "precio": 25.00,
+    "stock": 14,
+    "controlado": false
+  },
+  {
+    "nombre": "Diclofenaco 50 mg comprimidos",
+    "precio": 20.00,
+    "stock": 104,
+    "controlado": false
+  },
+  {
+    "nombre": "Clorfenamina 4 mg tabletas",
+    "precio": 8.50,
+    "stock": 82,
+    "controlado": false
+  },
+  {
+    "nombre": "Losartán 50 mg tabletas",
+    "precio": 25.00,
+    "stock": 36,
+    "controlado": false
+  },
+  {
+    "nombre": "Jarabe para la tos adultos",
+    "precio": 18.00,
+    "stock": 80,
+    "controlado": false
+  },
+  {
+    "nombre": "Loperamida 2 mg cápsulas",
+    "precio": 18.00,
+    "stock": 36,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina D 1000 UI cápsulas",
+    "precio": 18.00,
+    "stock": 118,
+    "controlado": false
+  },
+  {
+    "nombre": "Metformina 850 mg tabletas",
+    "precio": 28.00,
+    "stock": 33,
+    "controlado": false
+  },
+  {
+    "nombre": "Paracetamol 500 mg tabletas",
+    "precio": 10.00,
+    "stock": 65,
+    "controlado": false
+  },
+  {
+    "nombre": "Ambroxol jarabe 15 mg/5ml",
+    "precio": 17.00,
+    "stock": 102,
+    "controlado": false
+  },
+  {
+    "nombre": "Loratadina 10 mg tabletas",
+    "precio": 20.00,
+    "stock": 47,
+    "controlado": false
+  },
+  {
+    "nombre": "Dextrometorfano jarabe",
+    "precio": 17.00,
+    "stock": 107,
+    "controlado": false
+  },
+  {
+    "nombre": "Salbutamol 100 mcg inhalador",
+    "precio": 25.00,
+    "stock": 10,
+    "controlado": false
+  },
+  {
+    "nombre": "Carbón activado cápsulas",
+    "precio": 20.00,
+    "stock": 147,
+    "controlado": false
+  },
+  {
+    "nombre": "Amoxicilina 500 mg cápsulas",
+    "precio": 30.00,
+    "stock": 125,
+    "controlado": false
+  },
+  {
+    "nombre": "Aspirina 500 mg tabletas",
+    "precio": 12.00,
+    "stock": 116,
+    "controlado": false
+  },
+  {
+    "nombre": "Meloxicam 15 mg tabletas",
+    "precio": 28.00,
+    "stock": 51,
+    "controlado": false
+  },
+  {
+    "nombre": "Ácido acetilsalicílico 100 mg tabletas",
+    "precio": 5.00,
+    "stock": 142,
+    "controlado": false
+  },
+  {
+    "nombre": "Cetirizina 10 mg tabletas",
+    "precio": 20.00,
+    "stock": 139,
+    "controlado": false
+  },
+  {
+    "nombre": "Omeprazol 20 mg cápsulas",
+    "precio": 20.00,
+    "stock": 122,
+    "controlado": false
+  },
+  {
+    "nombre": "Ibuprofeno 400 mg cápsulas",
+    "precio": 25.00,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Ranitidina 150 mg tabletas",
+    "precio": 20.00,
+    "stock": 41,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina C 1g tabletas",
+    "precio": 28.00,
+    "stock": 118,
+    "controlado": false
+  },
+  {
+    "nombre": "Inhalador de vapor",
+    "precio": 50.00,
+    "stock": 106,
+    "controlado": false
+  },
+  {
+    "nombre": "Loperamida 2 mg cápsulas (blíster de 10)",
+    "precio": 18.00,
+    "stock": 12,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina C 1g tabletas (frasco de 30)",
+    "precio": 10.00,
+    "stock": 112,
+    "controlado": false
+  },
+  {
+    "nombre": "Salbutamol 100 mcg inhalador (spray de 200 dosis)",
+    "precio": 60.00,
+    "stock": 58,
+    "controlado": false
+  },
+  {
+    "nombre": "Losartán 50 mg tabletas (caja de 30)",
+    "precio": 10.00,
+    "stock": 99,
+    "controlado": false
+  },
+  {
+    "nombre": "Aspirina 500 mg tabletas (caja de 20)",
+    "precio": 28.00,
+    "stock": 17,
+    "controlado": false
+  },
+  {
+    "nombre": "Losartán 50 mg tabletas (caja de 60)",
+    "precio": 25.00,
+    "stock": 88,
+    "controlado": false
+  },
+  {
+    "nombre": "Salbutamol 100 mcg inhalador (spray de 100 dosis)",
+    "precio": 10.00,
+    "stock": 81,
+    "controlado": false
+  },
+  {
+    "nombre": "Amoxicilina 500 mg cápsulas (blíster de 10)",
+    "precio": 12.00,
+    "stock": 40,
+    "controlado": false
+  },
+  {
+    "nombre": "Loperamida 2 mg cápsulas (frasco de 20)",
+    "precio": 35.00,
+    "stock": 22,
+    "controlado": false
+  },
+  {
+    "nombre": "Jarabe para la tos adultos (frasco de 120 ml)",
+    "precio": 35.00,
+    "stock": 28,
+    "controlado": false
+  },
+  {
+    "nombre": "Ranitidina 150 mg tabletas (caja de 30)",
+    "precio": 20.00,
+    "stock": 52,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina D 1000 UI cápsulas (frasco de 60)",
+    "precio": 12.00,
+    "stock": 145,
+    "controlado": false
+  },
+  {
+    "nombre": "Diclofenaco 50 mg comprimidos (caja de 20)",
+    "precio": 18.00,
+    "stock": 79,
+    "controlado": false
+  },
+  {
+    "nombre": "Paracetamol 500 mg tabletas (caja de 20)",
+    "precio": 25.00,
+    "stock": 46,
+    "controlado": false
+  },
+  {
+    "nombre": "Carbón activado cápsulas (frasco de 50)",
+    "precio": 25.00,
+    "stock": 46,
+    "controlado": false
+  },
+  {
+    "nombre": "Ranitidina 150 mg tabletas (caja de 60)",
+    "precio": 35.00,
+    "stock": 117,
+    "controlado": false
+  },
+  {
+    "nombre": "Ibuprofeno 400 mg cápsulas (blíster de 10)",
+    "precio": 20.00,
+    "stock": 46,
+    "controlado": false
+  },
+  {
+    "nombre": "Inhalador de vapor (modelo portátil)",
+    "precio": 55.00,
+    "stock": 42,
+    "controlado": false
+  },
+  {
+    "nombre": "Hierro + Ácido fólico tabletas (frasco de 60)",
+    "precio": 18.00,
+    "stock": 90,
+    "controlado": false
+  },
+  {
+    "nombre": "Ácido acetilsalicílico 100 mg tabletas (caja de 30)",
+    "precio": 25.00,
+    "stock": 137,
+    "controlado": false
+  },
+  {
+    "nombre": "Ibuprofeno 400 mg cápsulas (frasco de 50)",
+    "precio": 28.00,
+    "stock": 14,
+    "controlado": false
+  },
+  {
+    "nombre": "Carbón activado cápsulas (blíster de 10)",
+    "precio": 5.00,
+    "stock": 113,
+    "controlado": false
+   
+  },
+  {
+    "nombre": "Cetirizina 10 mg tabletas (caja de 30)",
+    "precio": 20.00,
+    "stock": 50,
+    "controlado": false
+  },
+  {
+    "nombre": "Ambroxol jarabe 15 mg/5ml (frasco de 120 ml)",
+    "precio": 25.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Meloxicam 15 mg tabletas (caja de 20)",
+    "precio": 35.00,
+    "stock": 56,
+    "controlado": false
+  },
+
+  
+  
+
+
+  {
+    "nombre": "Alprazolam 0.5 mg tabletas (blíster de 10)",
+    "precio": 18.00,
+    "stock": 8,
+    "controlado": true
+  },
+  {
+    "nombre": "Clonazepam 2 mg tabletas (blíster de 10)",
+    "precio": 20.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Diazepam 10 mg tabletas (blíster de 10)",
+    "precio": 15.00,
+    "stock": 12,
+    "controlado": true
+  },
+  {
+    "nombre": "Lorazepam 1 mg tabletas (blíster de 10)",
+    "precio": 22.00,
+    "stock": 9,
+    "controlado": true
+  },
+  {
+    "nombre": "Bromazepam 3 mg tabletas (blíster de 10)",
+    "precio": 19.00,
+    "stock": 11,
+    "controlado": true
+  },
+  {
+    "nombre": "Clobazam 10 mg tabletas (blíster de 10)",
+    "precio": 23.00,
+    "stock": 7,
+    "controlado": true
+  },
+  {
+    "nombre": "Midazolam 15 mg/3 ml inyectable",
+    "precio": 30.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Oxazepam 10 mg tabletas (blíster de 10)",
+    "precio": 17.00,
+    "stock": 8,
+    "controlado": true
+  },
+  {
+    "nombre": "Zolpidem 10 mg tabletas (blíster de 10)",
+    "precio": 28.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Phenobarbital 100 mg tabletas (blíster de 10)",
+    "precio": 14.00,
+    "stock": 13,
+    "controlado": true
+  },
+  {
+    "nombre": "Metilfenidato 10 mg tabletas (blíster de 10)",
+    "precio": 35.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Buprenorfina 5 mcg/h parche (caja de 4)",
+    "precio": 60.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Fentanilo 25 mcg/h parche (caja de 5)",
+    "precio": 85.00,
+    "stock": 3,
+    "controlado": true
+  },
+  {
+    "nombre": "Morfina 10 mg/ml inyectable (ampolla)",
+    "precio": 32.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Codeína 30 mg tabletas (blíster de 10)",
+    "precio": 25.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Tramadol 50 mg cápsulas (blíster de 10)",
+    "precio": 16.00,
+    "stock": 14,
+    "controlado": true
+  },
+  {
+    "nombre": "Tramadol + Paracetamol tabletas (blíster de 10)",
+    "precio": 18.00,
+    "stock": 13,
+    "controlado": true
+  },
+  {
+    "nombre": "Metadona 10 mg tabletas (blíster de 10)",
+    "precio": 28.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Hidromorfona 2 mg tabletas (blíster de 10)",
+    "precio": 30.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Tapentadol 50 mg tabletas (blíster de 10)",
+    "precio": 34.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Oxicodona 10 mg tabletas (blíster de 10)",
+    "precio": 40.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Ketamina 50 mg/ml inyectable (frasco de 10 ml)",
+    "precio": 55.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Clorpromazina 100 mg tabletas (blíster de 10)",
+    "precio": 13.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Haloperidol 5 mg tabletas (blíster de 10)",
+    "precio": 14.00,
+    "stock": 8,
+    "controlado": true
+  },
+  {
+    "nombre": "Risperidona 2 mg tabletas (blíster de 10)",
+    "precio": 26.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Olanzapina 10 mg tabletas (blíster de 10)",
+    "precio": 30.00,
+    "stock": 9,
+    "controlado": true
+  },
+  {
+    "nombre": "Quetiapina 100 mg tabletas (blíster de 10)",
+    "precio": 33.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Aripiprazol 10 mg tabletas (blíster de 10)",
+    "precio": 35.00,
+    "stock": 7,
+    "controlado": true
+  },
+  {
+    "nombre": "Lamotrigina 100 mg tabletas (blíster de 10)",
+    "precio": 29.00,
+    "stock": 12,
+    "controlado": true
+  },
+  {
+    "nombre": "Valproato de sodio 500 mg tabletas (blíster de 10)",
+    "precio": 21.00,
+    "stock": 11,
+    "controlado": true
+  },
+  {
+    "nombre": "Carbamazepina 200 mg tabletas (blíster de 10)",
+    "precio": 18.00,
+    "stock": 10,
+    "controlado": true
+  },
+  {
+    "nombre": "Gabapentina 300 mg cápsulas (blíster de 10)",
+    "precio": 25.00,
+    "stock": 8,
+    "controlado": true
+  },
+  {
+    "nombre": "Pregabalina 75 mg cápsulas (blíster de 10)",
+    "precio": 27.00,
+    "stock": 7,
+    "controlado": true
+  },
+  {
+    "nombre": "Topiramato 100 mg tabletas (blíster de 10)",
+    "precio": 30.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Fenitoína 100 mg cápsulas (blíster de 10)",
+    "precio": 19.00,
+    "stock": 9,
+    "controlado": true
+  },
+  {
+    "nombre": "Modafinilo 100 mg tabletas (blíster de 10)",
+    "precio": 32.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Clorazepato dipotásico 15 mg tabletas (blíster de 10)",
+    "precio": 26.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Eszopiclona 2 mg tabletas (blíster de 10)",
+    "precio": 33.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Temazepam 15 mg cápsulas (blíster de 10)",
+    "precio": 28.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Flunitrazepam 1 mg tabletas (blíster de 10)",
+    "precio": 30.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Pentazocina 30 mg/ml inyectable (ampolla)",
+    "precio": 35.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Nalbufina 10 mg/ml inyectable (ampolla)",
+    "precio": 32.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Tiaprida 100 mg tabletas (blíster de 10)",
+    "precio": 29.00,
+    "stock": 7,
+    "controlado": true
+  },
+  {
+    "nombre": "Zuclopentixol 25 mg/ml inyectable (ampolla)",
+    "precio": 38.00,
+    "stock": 3,
+    "controlado": true
+  },
+  {
+    "nombre": "Levomepromazina 100 mg tabletas (blíster de 10)",
+    "precio": 24.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Loxapina 25 mg tabletas (blíster de 10)",
+    "precio": 26.00,
+    "stock": 5,
+    "controlado": true
+  },
+  {
+    "nombre": "Promazina 100 mg tabletas (blíster de 10)",
+    "precio": 20.00,
+    "stock": 6,
+    "controlado": true
+  },
+  {
+    "nombre": "Periciazina 25 mg tabletas (blíster de 10)",
+    "precio": 27.00,
+    "stock": 4,
+    "controlado": true
+  },
+  {
+    "nombre": "Paliperidona 6 mg tabletas (blíster de 10)",
+    "precio": 42.00,
+    "stock": 3,
+    "controlado": true
+  },
+  {
+    "nombre": "Ziprasidona 80 mg cápsulas (blíster de 10)",
+    "precio": 40.00,
+    "stock": 5,
+    "controlado": true
+  },
+
+
+
+
+
+  {
+    "nombre": "Multivitamínico complejo B",
+    "precio": 13.00,
+    "stock": 15,
+    "controlado": false
+  },
+  {
+    "nombre": "Multivitamínico complejo B Forte",
+    "precio": 13.50,
+    "stock": 95,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina C 500mg",
+    "precio": 10.00,
+    "stock": 60,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina D3 1000UI",
+    "precio": 14.00,
+    "stock": 40,
+    "controlado": false
+  },
+  {
+    "nombre": "Calcio + Vitamina D",
+    "precio": 18.00,
+    "stock": 30,
+    "controlado": false
+  },
+  {
+    "nombre": "Magnesio Quelado",
+    "precio": 20.00,
+    "stock": 25,
+    "controlado": false
+  },
+  {
+    "nombre": "Zinc 50mg",
+    "precio": 11.00,
+    "stock": 50,
+    "controlado": false
+  },
+  {
+    "nombre": "Omega 3 - Pescado",
+    "precio": 22.00,
+    "stock": 33,
+    "controlado": false
+  },
+  {
+    "nombre": "Omega 3-6-9",
+    "precio": 24.00,
+    "stock": 20,
+    "controlado": false
+  },
+  {
+    "nombre": "Colágeno Hidrolizado",
+    "precio": 28.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina E 400UI",
+    "precio": 15.00,
+    "stock": 70,
+    "controlado": false
+  },
+  {
+    "nombre": "Vitamina A 10,000UI",
+    "precio": 12.00,
+    "stock": 40,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Termómetro digital",
+    "precio": 35.00,
+    "stock": 38,
+    "controlado": false
+  },
+  {
+    "nombre": "Algodón hidrófilo 100g",
+    "precio": 18.00,
+    "stock": 40,
+    "controlado": false
+  },
+  {
+    "nombre": "Jeringas 5ml x10",
+    "precio": 30.00,
+    "stock": 11,
+    "controlado": false
+  },
+  {
+    "nombre": "Guantes de látex x10",
+    "precio": 25.00,
+    "stock": 17,
+    "controlado": false
+  },
+  {
+    "nombre": "Vendas elásticas",
+    "precio": 20.00,
+    "stock": 49,
+    "controlado": false
+  },
+  {
+    "nombre": "Insumos para diabetes (glucómetro)",
+    "precio": 140.00,
+    "stock": 21,
+    "controlado": false
+  },
+  {
+    "nombre": "Botiquín de primeros auxilios",
+    "precio": 70.00,
+    "stock": 54,
+    "controlado": false
+  },
+  {
+    "nombre": "Pastillero semanal",
+    "precio": 15.00,
+    "stock": 39,
+    "controlado": false
+  },
+  {
+    "nombre": "Tensiómetro manual",
+    "precio": 120.00,
+    "stock": 83,
+    "controlado": false
+  },
+  {
+    "nombre": "Gasas estériles x10",
+    "precio": 8.00,
+    "stock": 147,
+    "controlado": false
+  },
+  {
+    "nombre": "Guantes de látex x10 sin talco",
+    "precio": 28.00,
+    "stock": 83,
+    "controlado": false
+  },
+  {
+    "nombre": "Pastillero semanal con alarma",
+    "precio": 25.00,
+    "stock": 56,
+    "controlado": false
+  },
+  {
+    "nombre": "Jeringas 5ml x10 con aguja",
+    "precio": 35.00,
+    "stock": 15,
+    "controlado": false
+  },
+  {
+    "nombre": "Jeringas 5ml x10 sin aguja",
+    "precio": 20.00,
+    "stock": 78,
+    "controlado": false
+  },
+  {
+    "nombre": "Glucómetro con tiras (kit completo)",
+    "precio": 150.00,
+    "stock": 149,
+    "controlado": false
+  },
+  {
+    "nombre": "Tensiómetro digital de muñeca",
+    "precio": 135.00,
+    "stock": 91,
+    "controlado": false
+  },
+  {
+    "nombre": "Venda elástica reforzada 5m",
+    "precio": 30.00,
+    "stock": 132,
+    "controlado": false
+  },
+  {
+    "nombre": "Algodón hidrófilo en bolitas 50g",
+    "precio": 10.00,
+    "stock": 15,
+    "controlado": false
+  },
+  {
+    "nombre": "Tensiómetro digital de brazo",
+    "precio": 180.00,
+    "stock": 96,
+    "controlado": false
+  },
+  {
+    "nombre": "Mascarillas quirúrgicas x10",
+    "precio": 14.00,
+    "stock": 70,
+    "controlado": false
+  },
+  {
+    "nombre": "Cinta microporosa 1 pulgada",
+    "precio": 6.00,
+    "stock": 80,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol en gel 250 ml",
+    "precio": 12.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Frasco para muestras estéril",
+    "precio": 3.00,
+    "stock": 100,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Desodorante Axe spray",
+    "precio": 28.00,
+    "stock": 95,
+    "controlado": false
+  },
+  {
+    "nombre": "Shampoo Sedal 340ml",
+    "precio": 35.00,
+    "stock": 51,
+    "controlado": false
+  },
+  {
+    "nombre": "Mascarilla facial Garnier hidratante",
+    "precio": 32.00,
+    "stock": 7,
+    "controlado": false
+  },
+  {
+    "nombre": "Cepillo dental Oral-B clásico",
+    "precio": 25.00,
+    "stock": 136,
+    "controlado": false
+  },
+  {
+    "nombre": "Maquinilla Gillette desechable x2",
+    "precio": 12.00,
+    "stock": 98,
+    "controlado": false
+  },
+  {
+    "nombre": "Cera para cabello mate",
+    "precio": 27.00,
+    "stock": 47,
+    "controlado": false
+  },
+  {
+    "nombre": "Peine de plástico estándar",
+    "precio": 10.00,
+    "stock": 131,
+    "controlado": false
+  },
+  {
+    "nombre": "Lentes de lectura genéricos",
+    "precio": 18.00,
+    "stock": 79,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema antiinflamatoria mentolada",
+    "precio": 22.00,
+    "stock": 145,
+    "controlado": false
+  },
+  {
+    "nombre": "Talco para pies Dr. Scholl’s antifúngico",
+    "precio": 19.00,
+    "stock": 103,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema antimicótica clotrimazol",
+    "precio": 23.00,
+    "stock": 117,
+    "controlado": false
+  },
+  {
+    "nombre": "Acondicionador Pantene 400ml",
+    "precio": 33.00,
+    "stock": 27,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema Nivea piel seca 200ml",
+    "precio": 38.00,
+    "stock": 108,
+    "controlado": false
+  },
+  {
+    "nombre": "Loción para bebé Johnson original",
+    "precio": 32.00,
+    "stock": 149,
+    "controlado": false
+  },
+  {
+    "nombre": "Mascarilla facial Garnier purificante",
+    "precio": 30.00,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema antiinflamatoria formato económico",
+    "precio": 18.00,
+    "stock": 114,
+    "controlado": false
+  },
+  {
+    "nombre": "Cepillo dental Oral-B suave x2",
+    "precio": 38.00,
+    "stock": 37,
+    "controlado": false
+  },
+  {
+    "nombre": "Acondicionador Pantene 400ml tamaño familiar",
+    "precio": 40.00,
+    "stock": 77,
+    "controlado": false
+  },
+  {
+    "nombre": "Mascarilla facial Garnier detox",
+    "precio": 25.00,
+    "stock": 27,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema antimicótica tubo 20g",
+    "precio": 28.00,
+    "stock": 136,
+    "controlado": false
+  },
+  {
+    "nombre": "Talco para pies Dr. Scholl’s extra protección",
+    "precio": 20.00,
+    "stock": 74,
+    "controlado": false
+  },
+  {
+    "nombre": "Peine de plástico profesional",
+    "precio": 15.00,
+    "stock": 70,
+    "controlado": false
+  },
+  {
+    "nombre": "Shampoo Sedal 340ml extra brillo",
+    "precio": 37.00,
+    "stock": 126,
+    "controlado": false
+  },
+  {
+    "nombre": "Loción para bebé Johnson manzanilla",
+    "precio": 36.00,
+    "stock": 129,
+    "controlado": false
+  },
+  {
+    "nombre": "Acondicionador Pantene 400ml suave & liso",
+    "precio": 34.00,
+    "stock": 50,
+    "controlado": false
+  },
+  {
+    "nombre": "Acondicionador Pantene 400ml reparación total",
+    "precio": 35.00,
+    "stock": 114,
+    "controlado": false
+  },
+  {
+    "nombre": "Desodorante Axe spray Ice Chill",
+    "precio": 30.00,
+    "stock": 63,
+    "controlado": false
+  },
+  {
+    "nombre": "Cera para cabello brillo extremo",
+    "precio": 26.00,
+    "stock": 44,
+    "controlado": false
+  },
+  {
+    "nombre": "Crema antiinflamatoria deportiva",
+    "precio": 16.00,
+    "stock": 89,
+    "controlado": false
+  },
+  {
+    "nombre": "Cera para cabello control fuerte",
+    "precio": 20.00,
+    "stock": 53,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Spray nasal descongestionante 10ml",
+    "precio": 6.00,
+    "stock": 46,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol medicinal 1L",
+    "precio": 24.00,
+    "stock": 75,
+    "controlado": false
+  },
+  {
+    "nombre": "Gel antibacterial 250ml",
+    "precio": 36.00,
+    "stock": 58,
+    "controlado": false
+  },
+  {
+    "nombre": "Papel higiénico Elite 4 rollos",
+    "precio": 38.50,
+    "stock": 138,
+    "controlado": false
+  },
+  {
+    "nombre": "Enjuague bucal Listerine 250ml",
+    "precio": 45.00,
+    "stock": 66,
+    "controlado": false
+  },
+  {
+    "nombre": "Pasta dental Colgate 90g",
+    "precio": 36.00,
+    "stock": 87,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol en gel 500ml",
+    "precio": 49.00,
+    "stock": 26,
+    "controlado": false
+  },
+  {
+    "nombre": "Repelente de insectos 100ml",
+    "precio": 25.00,
+    "stock": 141,
+    "controlado": false
+  },
+  {
+    "nombre": "Suero oral en polvo 5g",
+    "precio": 7.50,
+    "stock": 97,
+    "controlado": false
+  },
+  {
+    "nombre": "Cotonetes paquete x100",
+    "precio": 29.00,
+    "stock": 44,
+    "controlado": false
+  },
+  {
+    "nombre": "Bicarbonato de sodio 5g polvo",
+    "precio": 23.00,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Antipolillas de armario",
+    "precio": 6.50,
+    "stock": 93,
+    "controlado": false
+  },
+  {
+    "nombre": "Jabón Rexona 125g",
+    "precio": 13.00,
+    "stock": 149,
+    "controlado": false
+  },
+  {
+    "nombre": "Solución fisiológica 500ml",
+    "precio": 6.00,
+    "stock": 138,
+    "controlado": false
+  },
+  {
+    "nombre": "Toallas higiénicas Kotex paquete estándar",
+    "precio": 18.50,
+    "stock": 131,
+    "controlado": false
+  },
+  {
+    "nombre": "Caja de curitas x20",
+    "precio": 48.00,
+    "stock": 85,
+    "controlado": false
+  },
+  {
+    "nombre": "Antiséptico bucal 250ml",
+    "precio": 26.50,
+    "stock": 99,
+    "controlado": false
+  },
+  {
+    "nombre": "Pasta dental Colgate 90g extra",
+    "precio": 40.00,
+    "stock": 150,
+    "controlado": false
+  },
+  {
+    "nombre": "Spray nasal descongestionante extra fuerte",
+    "precio": 20.00,
+    "stock": 131,
+    "controlado": false
+  },
+  {
+    "nombre": "Caja de curitas x20 económica",
+    "precio": 42.00,
+    "stock": 21,
+    "controlado": false
+  },
+  {
+    "nombre": "Repelente de insectos mini",
+    "precio": 11.00,
+    "stock": 14,
+    "controlado": false
+  },
+  {
+    "nombre": "Antiséptico bucal concentrado",
+    "precio": 36.00,
+    "stock": 33,
+    "controlado": false
+  },
+  {
+    "nombre": "Bicarbonato de sodio 5g polvo extra",
+    "precio": 23.00,
+    "stock": 21,
+    "controlado": false
+  },
+  {
+    "nombre": "Solución fisiológica 500ml premium",
+    "precio": 37.00,
+    "stock": 68,
+    "controlado": false
+  },
+  {
+    "nombre": "Caja de curitas x20 económica 2",
+    "precio": 19.00,
+    "stock": 149,
+    "controlado": false
+  },
+  {
+    "nombre": "Cotonetes paquete x100 suave",
+    "precio": 24.00,
+    "stock": 63,
+    "controlado": false
+  },
+  {
+    "nombre": "Suero oral en polvo saborizado",
+    "precio": 18.50,
+    "stock": 133,
+    "controlado": false
+  },
+  {
+    "nombre": "Toallas higiénicas Kotex extra absorbente",
+    "precio": 46.00,
+    "stock": 52,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol en gel 500ml suave",
+    "precio": 45.50,
+    "stock": 137,
+    "controlado": false
+  },
+  {
+    "nombre": "Cotonetes paquete x100 premium",
+    "precio": 37.00,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Suero oral en polvo premium",
+    "precio": 37.00,
+    "stock": 103,
+    "controlado": false
+  },
+  {
+    "nombre": "Antipolillas de armario perfumado",
+    "precio": 23.50,
+    "stock": 85,
+    "controlado": false
+  },
+  {
+    "nombre": "Jabón Rexona 125g fragancia intensa",
+    "precio": 42.00,
+    "stock": 102,
+    "controlado": false
+  },
+  {
+    "nombre": "Papel higiénico Elite 4 rollos económico",
+    "precio": 17.00,
+    "stock": 100,
+    "controlado": false
+  },
+  {
+    "nombre": "Spray nasal descongestionante infantil",
+    "precio": 36.00,
+    "stock": 40,
+    "controlado": false
+  },
+  {
+    "nombre": "Gel antibacterial 250ml bolsillo",
+    "precio": 19.50,
+    "stock": 100,
+    "controlado": false
+  },
+  {
+    "nombre": "Papel higiénico Elite 4 rollos compacto",
+    "precio": 23.00,
+    "stock": 69,
+    "controlado": false
+  },
+  {
+    "nombre": "Enjuague bucal Listerine 250ml extra",
+    "precio": 50.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Pasta dental Colgate 90g extra fuerte",
+    "precio": 38.00,
+    "stock": 78,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol medicinal 1L premium",
+    "precio": 30.00,
+    "stock": 100,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Powerade Azul 500ml",
+    "precio": 9.00,
+    "stock": 17,
+    "controlado": false
+  },
+  {
+    "nombre": "Powerade Rojo 500ml",
+    "precio": 9.00,
+    "stock": 17,
+    "controlado": false
+  },
+  {
+    "nombre": "Agua Vital 600ml",
+    "precio": 5.00,
+    "stock": 138,
+    "controlado": false
+  },
+  {
+    "nombre": "Gatorade 500ml",
+    "precio": 9.00,
+    "stock": 108,
+    "controlado": false
+  },
+  {
+    "nombre": "Agua Cielo 600ml",
+    "precio": 5.50,
+    "stock": 136,
+    "controlado": false
+  },
+  {
+    "nombre": "Coca Cola 600ml",
+    "precio": 7.50,
+    "stock": 46,
+    "controlado": false
+  },
+  {
+    "nombre": "Monster Energy 473ml",
+    "precio": 15.00,
+    "stock": 124,
+    "controlado": false
+  },
+  {
+    "nombre": "Jugo Del Valle 500ml",
+    "precio": 10.00,
+    "stock": 150,
+    "controlado": false
+  },
+  {
+    "nombre": "Sprite 600ml",
+    "precio": 7.50,
+    "stock": 26,
+    "controlado": false
+  },
+  {
+    "nombre": "Coca Cola Zero 600ml",
+    "precio": 7.50,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Pepsi 600ml",
+    "precio": 5.50,
+    "stock": 13,
+    "controlado": false
+  },  
+  {
+    "nombre": "Pepsi Black 600ml",
+    "precio": 5.50,
+    "stock": 13,
+    "controlado": false
+  },
+  {
+    "nombre": "Fanta 600ml",
+    "precio": 7.50,
+    "stock": 143,
+    "controlado": false
+  },
+  {
+    "nombre": "Red Bull 250ml",
+    "precio": 15.00,
+    "stock": 101,
+    "controlado": false
+  },
+  {
+    "nombre": "Pepsi 600ml",
+    "precio": 6.50,
+    "stock": 33,
+    "controlado": false
+  },
+  {
+    "nombre": "Ades Soja Durazno 250ml",
+    "precio": 7.00,
+    "stock": 60,
+    "controlado": false
+  },
+  {
+    "nombre": "Cappy Naranja 300ml",
+    "precio": 8.00,
+    "stock": 75,
+    "controlado": false
+  },
+  {
+    "nombre": "Aquarius Manzana 500ml",
+    "precio": 7.50,
+    "stock": 62,
+    "controlado": false
+  },
+  {
+    "nombre": "Gatorade Lima-Limón 500ml",
+    "precio": 9.00,
+    "stock": 80,
+    "controlado": false
+  },
+  {
+    "nombre": "Monster Mango Loco 473ml",
+    "precio": 16.00,
+    "stock": 50,
+    "controlado": false
+  },
+  {
+    "nombre": "Red Bull Sugarfree 250ml",
+    "precio": 15.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Agua Embotellada Purísima 600ml",
+    "precio": 4.50,
+    "stock": 100,
+    "controlado": false
+  },
+  {
+    "nombre": "Agua VillaSanta 500ml",
+    "precio": 4.50,
+    "stock": 90,
+    "controlado": false
+  },
+  {
+    "nombre": "Bebida Energética Volt 350ml",
+    "precio": 7.00,
+    "stock": 70,
+    "controlado": false
+  },
+  {
+    "nombre": "Jugo Tampico Multifrutas 500ml",
+    "precio": 6.50,
+    "stock": 85,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Leche Delizia 1L",
+    "precio": 7.50,
+    "stock": 125,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt Pil Frutilla 500ml",
+    "precio": 7.00,
+    "stock": 90,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt Natural Lacteosbol 1L",
+    "precio": 8.50,
+    "stock": 80,
+    "controlado": false
+  },
+  {
+    "nombre": "Leche Pil 1L",
+    "precio": 8.50,
+    "stock": 35,
+    "controlado": false
+  },
+  {
+    "nombre": "Leche de Soya 1L",
+    "precio": 7.50,
+    "stock": 125,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt bebible Pil 1L",
+    "precio": 9.50,
+    "stock": 139,
+    "controlado": false
+  },
+  {
+    "nombre": "Queso Fresco 250g",
+    "precio": 18.00,
+    "stock": 50,
+    "controlado": false
+  },
+  {
+    "nombre": "Mantequilla 200g",
+    "precio": 24.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt Pil Frutilla 500ml",
+    "precio": 7.00,
+    "stock": 90,
+    "controlado": false
+  },
+  {
+    "nombre": "Leche en polvo Ideal 400g",
+    "precio": 35.00,
+    "stock": 30,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt bebible Lacteosbol 1L",
+    "precio": 9.00,
+    "stock": 85,
+    "controlado": false
+  },
+  {
+    "nombre": "Queso Crema 150g",
+    "precio": 15.00,
+    "stock": 65,
+    "controlado": false
+  },
+  {
+    "nombre": "Yogurt Natural Pil 1L",
+    "precio": 9.00,
+    "stock": 70,
+    "controlado": false
+  },
+  {
+    "nombre": "Leche Pil 500ml",
+    "precio": 4.50,
+    "stock": 40,
+    "controlado": false
+  },
+  {
+    "nombre": "Queso Manchego 300g",
+    "precio": 30.00,
+    "stock": 20,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Pañales Huggies Talla G x10 unidades",
+    "precio": 70.00,
+    "stock": 115,
+    "controlado": false
+  },
+  {
+    "nombre": "Pañales Huggies Talla G x5 unidades",
+    "precio": 40.00,
+    "stock": 39,
+    "controlado": false
+  },
+
+
+
+
+
+  {
+    "nombre": "Pomada antibiótica 30g",
+    "precio": 17.50,
+    "stock": 268,
+    "controlado": false
+  },
+  {
+    "nombre": "Pomada para quemaduras 30g",
+    "precio": 42.50,
+    "stock": 210,
+    "controlado": false
+  },
+  {
+    "nombre": "Protector solar FPS 50 100ml",
+    "precio": 25.00,
+    "stock": 135,
+    "controlado": false
+  },
+  {
+    "nombre": "Mascarilla KN95 x5 unidades",
+    "precio": 46.50,
+    "stock": 7,
+    "controlado": false
+  },
+  {
+    "nombre": "Preservativos Prudence Frutales x3",
+    "precio": 41.50,
+    "stock": 72,
+    "controlado": false
+  },
+  {
+    "nombre": "Preservativos Prime Placer x3",
+    "precio": 17.50,
+    "stock": 134,
+    "controlado": false
+  },
+  {
+    "nombre": "Preservativos Durex Clásicos x3",
+    "precio": 19.17,
+    "stock": 164,
+    "controlado": false
+  },
+  {
+    "nombre": "Preservativos Sico Sensitive x3",
+    "precio": 26.00,
+    "stock": 123,
+    "controlado": false
+  },
+  {
+    "nombre": "Preservativos Vive Natural x3",
+    "precio": 12.00,
+    "stock": 93,
+    "controlado": false
+  },
+  {
+    "nombre": "Gel antibacterial 100ml",
+    "precio": 15.00,
+    "stock": 200,
+    "controlado": false
+  },
+  {
+    "nombre": "Algodón estéril 50g",
+    "precio": 10.00,
+    "stock": 180,
+    "controlado": false
+  },
+  {
+    "nombre": "Cinta adhesiva médica 5cm x 5m",
+    "precio": 8.50,
+    "stock": 150,
+    "controlado": false
+  },
+  {
+    "nombre": "Termómetro digital",
+    "precio": 70.00,
+    "stock": 45,
+    "controlado": false
+  },
+  {
+    "nombre": "Alcohol etílico 70% 500ml",
+    "precio": 12.00,
+    "stock": 140,
+    "controlado": false
+  }
+]

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Farmacia Inteligente</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Farmacia Inteligente</h1>
+    <p>Realiza tu pedido mientras esperas</p>
+  </header>
+
+  <main>
+    <section id="busqueda-producto">
+      <h2>Buscar producto</h2>
+      <input type="text" id="input-busqueda" placeholder="Ej: Paracetamol 500mg" />
+      <ul id="sugerencias" style="border: 1px solid #ccc; max-height: 150px; overflow-y: auto; list-style: none; padding: 0;"></ul>
+      <button onclick="buscarMedicamento()">Buscar</button>
+      <div id="resultado-busqueda"></div>
+    </section>
+
+    <div class="controlados-container">
+      <h2 class="controlados-title">Medicamentos Controlados</h2>
+      <input type="text" id="input-controlados" placeholder="Consultar medicamentos controlados" />
+      <div id="resultado-controlados">
+      <!-- Los resultados apareceran aquí dinámicamente -->
+      </div>
+    </div>
+
+ 
+
+    <section id="carrito">
+      <h2>Tu preorden</h2>
+      <ul id="lista-carrito"></ul>
+      <p id="total">Total: Bs 0</p>
+      <button onclick="enviarPedido()">Enviar a farmacéutica</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>FARMACIA INTELIGENTE • TECNOUPSA 2025</p>
+  </footer>
+
+  <!-- Contenedor flotante del chatbot y botón -->
+  <div id="chatbot-wrapper">
+    <div id="chatbot-container">
+      <div id="chatbox">
+        <div id="chat-mensajes"></div>
+        <div id="chat-input-area">
+          <input type="text" id="input-chat" placeholder="Haz tu pregunta..." autocomplete="off" />
+          <button id="btn-enviar">Enviar</button>
+        </div>
+      </div>
+    </div>
+
+    <button id="toggle-chatbot" title="Abrir/Cerrar Chatbot">💬</button>
+  </div>
+
+  <script src="script.js"></script>
+  <script>
+    // Toggle chatbot al hacer click en el botón
+    document.getElementById("toggle-chatbot").addEventListener("click", () => {
+      const contenedor = document.getElementById("chatbot-container");
+      if (contenedor.style.display === "none" || contenedor.style.display === "") {
+        contenedor.style.display = "flex";
+      } else {
+        contenedor.style.display = "none";
+      }
+    });
+  </script>
+</body>
+</html>
