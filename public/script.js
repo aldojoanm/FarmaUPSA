@@ -207,7 +207,7 @@ async function enviarPedido() {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
-        'Accept': 'application/json' // Asegura que esperamos JSON
+        'Accept': 'application/json'
       },
       body: JSON.stringify({
         items: carrito,
@@ -215,7 +215,6 @@ async function enviarPedido() {
       })
     });
 
-    // Verificar si la respuesta es JSON
     const contentType = response.headers.get('content-type');
     if (!contentType || !contentType.includes('application/json')) {
       const text = await response.text();
@@ -228,14 +227,13 @@ async function enviarPedido() {
       throw new Error(data.error || 'Error en el servidor');
     }
 
-    // 2. Generar enlace WhatsApp
+    // 2. Generar mensaje WhatsApp
     const mensaje = generarMensajeWhatsApp(carrito, data.numeroPedido);
     const numeroFarmacia = '59175600630'; // Reemplaza con número real
-    const enlaceWhatsApp = `https://wa.me/${numeroFarmacia}?text=${encodeURIComponent(mensaje)}`;
 
-    // 3. Mostrar opción para enviar
+    // 3. Solución universal para WhatsApp
     if (confirm('¿Enviar pedido por WhatsApp al farmacéutico?')) {
-      window.open(enlaceWhatsApp, '_blank');
+      abrirWhatsAppUniversal(numeroFarmacia, mensaje);
     }
 
     // 4. Limpiar carrito
@@ -245,6 +243,59 @@ async function enviarPedido() {
     console.error('Error en enviarPedido:', error);
     alert(`Error: ${error.message}`);
   }
+}
+
+// Función mejorada para abrir WhatsApp en todos los dispositivos
+function abrirWhatsAppUniversal(numero, mensaje) {
+  // Limpiar el número (solo dígitos)
+  const numeroLimpio = numero.replace(/\D/g, '');
+  const mensajeCodificado = encodeURIComponent(mensaje);
+  
+  // URLs para diferentes plataformas
+  const urlWeb = `https://web.whatsapp.com/send?phone=${numeroLimpio}&text=${mensajeCodificado}`;
+  const urlMobile = `https://api.whatsapp.com/send?phone=${numeroLimpio}&text=${mensajeCodificado}`;
+  const urlIOS = `whatsapp://send?phone=${numeroLimpio}&text=${mensajeCodificado}`;
+  
+  // Detectar dispositivo
+  const esIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+  const esAndroid = /Android/i.test(navigator.userAgent);
+  
+  // Intentar abrir WhatsApp según el dispositivo
+  if (esIOS) {
+    // Primero intentamos con el esquema de URL para iOS
+    window.location.href = urlIOS;
+    
+    // Fallback después de un tiempo si no se abrió WhatsApp
+    setTimeout(() => {
+      if (!document.hidden) {
+        // Si no se abrió la app, mostramos el mensaje para copiar manualmente
+        const deberiaAbrir = confirm(
+          'No se pudo abrir WhatsApp automáticamente. ¿Quieres copiar el mensaje para enviarlo manualmente?'
+        );
+        if (deberiaAbrir) {
+          copiarMensajeWhatsApp(mensaje);
+          window.open(urlMobile, '_blank');
+        }
+      }
+    }, 500);
+  } else if (esAndroid) {
+    // Para Android usamos el esquema estándar
+    window.open(urlMobile, '_blank');
+  } else {
+    // Para escritorio usamos web.whatsapp.com
+    window.open(urlWeb, '_blank');
+  }
+}
+
+// Función para copiar el mensaje al portapapeles
+function copiarMensajeWhatsApp(mensaje) {
+  const textarea = document.createElement('textarea');
+  textarea.value = mensaje;
+  document.body.appendChild(textarea);
+  textarea.select();
+  document.execCommand('copy');
+  document.body.removeChild(textarea);
+  alert('Mensaje copiado al portapapeles. Pégalo en WhatsApp para enviarlo.');
 }
 
 function generarMensajeWhatsApp(items, numeroPedido) {
@@ -264,7 +315,8 @@ function limpiarCarrito() {
   document.getElementById("resultado-busqueda").innerHTML = "";
   document.getElementById("input-busqueda").value = "";
 }
-// Funciones del chat (sin cambios)
+
+// Funciones del chat
 async function manejarEnvioPregunta() {
   const input = document.getElementById("input-chat");
   const pregunta = input.value.trim();
@@ -318,7 +370,7 @@ document.getElementById("toggle-chatbot").addEventListener("click", () => {
   contenedor.classList.toggle("chatbot-visible");
 });
 
-let advertenciaMostrada = false; // Variable para controlar la alerta
+let advertenciaMostrada = false;
 
 document.getElementById("input-controlados").addEventListener("input", async function(e) {
   const input = e.target.value.trim();
@@ -328,13 +380,11 @@ document.getElementById("input-controlados").addEventListener("input", async fun
   if (input.length < 3) return;
 
   try {
-    // Muestra advertencia solo la primera vez
     if (!advertenciaMostrada) {
       alert("ATENCIÓN: Los medicamentos controlados requieren atención personal con la farmacéutica y receta médica. Esta función es solo para consulta informativa.");
       advertenciaMostrada = true;
     }
 
-    // Asegúrate que el parámetro sea controlado=true
     const response = await fetch(`/api/medicamentos?query=${encodeURIComponent(input)}&controlado=true`);
     
     if (!response.ok) {
@@ -343,7 +393,6 @@ document.getElementById("input-controlados").addEventListener("input", async fun
 
     const controlados = await response.json();
 
-    // Verificación adicional en el frontend
     const verdaderosControlados = controlados.filter(med => 
       med.controlado === true && 
       med.nombre.toLowerCase().includes(input.toLowerCase())
@@ -354,7 +403,6 @@ document.getElementById("input-controlados").addEventListener("input", async fun
       return;
     }
 
-    // Mostrar resultados
     verdaderosControlados.forEach(med => {
       const div = document.createElement("div");
       div.className = "medicamento-controlado";
