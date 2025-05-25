@@ -295,71 +295,99 @@ app.post('/api/pedidos', (req, res) => {
 // RUTA DEL CHATBOT (SANABOT)
 // ==============================================
 
+// ... (código anterior se mantiene igual hasta la ruta del chatbot)
+
+// ==============================================
+// RUTA DEL CHATBOT (SANABOT) - CORREGIDA
+// ==============================================
+
+// Objeto para almacenar las sesiones del chatbot
+const sesionesChatbot = {};
+
 app.post("/chat", async (req, res) => {
-  const pregunta = req.body.texto || req.body.message || "";
-  const sessionId = req.body.sessionId || "anon";
+  try {
+    const pregunta = req.body.texto || req.body.message || "";
+    const sessionId = req.body.sessionId || "anon";
 
-  if (!pregunta.trim()) {
-    return res.status(400).json({ error: "No se envió ninguna pregunta." });
-  }
+    if (!pregunta.trim()) {
+      return res.status(400).json({ error: "No se envió ninguna pregunta." });
+    }
 
-  if (!sesiones[sessionId]) {
-    sesiones[sessionId] = [
-      {
-        role: "system",
-        content: `Eres SANABOT, un asistente farmacéutico experto, amable y claro. 
+    // Inicializar sesión si no existe
+    if (!sesionesChatbot[sessionId]) {
+      sesionesChatbot[sessionId] = [
+        {
+          role: "system",
+          content: `Eres SANABOT, un asistente farmacéutico experto, amable y claro. 
 Responde preguntas sobre medicamentos, enfermedades comunes y formas de administración de manera concisa y comprensible.
 Evita respuestas largas, necesito respuestas puntuales de maximo 5 lineas. Si la pregunta no tiene sentido, responde con amabilidad.
 Si es sobre síntomas, puedes dar sugerencias generales, pero siempre recalca que se debe consultar con un profesional de salud. 
 En el primer mensaje, saluda con: "Hola, soy SANABOT! Tu asistente virtual."`,
-      },
-    ];
-  }
+        },
+      ];
+    }
 
-  const yaRespondioAntes = sesiones[sessionId].some(msg => msg.role === "assistant");
+    const yaRespondioAntes = sesionesChatbot[sessionId].some(msg => msg.role === "assistant");
 
-  if (!yaRespondioAntes) {
-    sesiones[sessionId].push({ role: "user", content: pregunta });
-  } else {
-    sesiones[sessionId].push({
-      role: "user",
-      content: `Responde sin repetir el saludo "Hola, soy SANABOT" y mantén el tono conversacional. Usuario: ${pregunta}`,
-    });
-  }
+    if (!yaRespondioAntes) {
+      sesionesChatbot[sessionId].push({ role: "user", content: pregunta });
+    } else {
+      sesionesChatbot[sessionId].push({
+        role: "user",
+        content: `Responde sin repetir el saludo "Hola, soy SANABOT" y mantén el tono conversacional. Usuario: ${pregunta}`,
+      });
+    }
 
-  try {
+    // Verificar que la API key esté configurada
+    if (!process.env.GROQ_API_KEY) {
+      console.error("Error: GROQ_API_KEY no está configurada");
+      return res.status(500).json({ error: "Configuración del servidor incompleta" });
+    }
+
     const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
       method: "POST",
       headers: {
-        Authorization: `Bearer ${process.env.GROQ_API_KEY}`,
+        "Authorization": `Bearer ${process.env.GROQ_API_KEY}`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
         model: "mistral-saba-24b",
-        messages: sesiones[sessionId],
+        messages: sesionesChatbot[sessionId],
         temperature: 0.4,
       }),
     });
 
     if (!response.ok) {
       const errText = await response.text();
-      return res.status(response.status).json({ error: `Error de API: ${errText}` });
+      console.error("Error en API de Groq:", errText);
+      return res.status(response.status).json({ 
+        error: "Error al conectar con el servicio de chatbot",
+        details: process.env.NODE_ENV === 'development' ? errText : undefined
+      });
     }
 
     const data = await response.json();
-    let respuesta = data.choices?.[0]?.message?.content || "No pude obtener respuesta";
+    let respuesta = data.choices?.[0]?.message?.content || "No pude obtener una respuesta";
 
+    // Limpiar respuesta si ya se ha saludado antes
     if (yaRespondioAntes) {
       respuesta = respuesta.replace(/^hola[^.!\n]*[.!:\n-]+\s*/i, "").trimStart();
     }
 
-    sesiones[sessionId].push({ role: "assistant", content: respuesta });
+    // Guardar la respuesta en el historial
+    sesionesChatbot[sessionId].push({ role: "assistant", content: respuesta });
+
     res.json({ respuesta });
   } catch (error) {
     console.error("Error en /chat:", error);
-    res.status(500).json({ error: error.toString() });
+    res.status(500).json({ 
+      error: "Error interno del servidor",
+      details: process.env.NODE_ENV === 'development' ? error.message : undefined
+    });
   }
 });
+
+// ... (el resto del código se mantiene igual)
 
 // ==============================================
 // ENDPOINTS ADICIONALES
