@@ -131,11 +131,17 @@ async function agregarAlCarrito(id, nombre, precio, stockMaximo) {
 
   // Verificar stock disponible
   try {
-    const response = await fetch(`/api/medicamentos/${id}`);
+    const response = await fetch(`/api/medicamentos?query=${encodeURIComponent(nombre)}`);
     if (!response.ok) throw new Error("Error verificando stock");
     
-    const medicamento = await response.json();
+    const resultados = await response.json();
+    const medicamento = resultados.find(m => m.nombre === nombre);
     
+    if (!medicamento) {
+      alert("Medicamento no encontrado.");
+      return;
+    }
+
     if (cantidad > medicamento.stock) {
       alert(`No hay suficiente stock. Stock disponible: ${medicamento.stock}`);
       return;
