@@ -351,7 +351,7 @@ En el primer mensaje, saluda con: "Hola, soy SANABOT! Tu asistente virtual."`,
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        model: "deepseek-r1-distill-llama-70b",
+        model: "llama3-70b-8192",
         messages: sesionesChatbot[sessionId],
         temperature: 0.4,
       }),
